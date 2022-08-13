@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:darkgrey;
+    color: #fff;
+    background: url('./background2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    
+}
+
+main{
+    position: relative; 
+}
+
+header{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header > img {
+    width: 10em;
+    height: 10em;
+    border-radius: 100%;
+    border: 1.5px solid #69B8F1;
+    box-shadow: 4px 8px 8px 4px lightblue;
+}
+
+header > h1 {
+    display: inline-block;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 1.5em;
+    background-color: #000a;
+    color: #D3D3D2;
+    padding:0.3em 0.6em;
+    border:1px solid #fff;
+    backdrop-filter: blur(10px) saturate(260%) contrast(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(260%) contrast(180%);
+}
+
+ul{
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0 auto;
+    padding:2em;
+}
+
+ul > li{
+    text-decoration: none;
+    background-color:#fffa; 
+    backdrop-filter: blur(10px) saturate(260%) contrast(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(260%) contrast(180%);
+    border-radius: 10em;
+    padding: 1em;
+    margin: 1.4em 0;
+}
+
+ul > li > a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    gap: 0.5em;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+#vanta{
+    z-index: 0;
+    position: absolute;
+    left:0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
